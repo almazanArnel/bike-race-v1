@@ -1,0 +1,52 @@
+* {
+	margin : 0;
+	padding: 0;
+	font-family: 'Abril Fatface', cursive;
+	box-sizing: border-box;
+	color: white;
+	text-shadow: 0 2px 2px black;
+}
+
+h1 {
+	padding: 30px 50px 20px 50px;
+}
+
+body {
+	background-image: url("../images/sand.jpg");
+	background-size: contain;
+	background-position: left;
+}
+
+.character {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+}
+
+#start {
+	display: none;
+}
+
+#road {
+	background-image: url("../images/road.jpg");
+	height: 400px;
+	width: 100%;
+	background-size: contain;
+	background-position: left;
+}
+
+#ai {
+	top: 270px;
+	background-image: url("../images/ai.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#player {
+	top : 450px;	
+	background-image: url("../images/player.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Race</title>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+	<!-- external css -->
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+	<h1 class="display-4 text-center">Bike Race</h1>
+	<p class="display-5 text-center">Press "Space" to Accelerate</p>
+
+	<button class="btn btn-success mx-auto d-none" id="start"> Start Race </button>
+
+	<section>
+		<h2>Player Name:</h2>
+		<input type="text" id="inputBox">
+	</section>
+	
+
+	<button class="btn btn-success" id="1">Easy</button>
+	<button class="btn btn-secondary" id="2">Medium</button>
+	<button class="btn btn-danger" id="3">Hard</button>
+
+	<div class="container-fluid" id="road">
+		<div class="character d-none" id="player"></div>
+		<div class="character d-none" id="ai"></div>
+	</div>
+	
+
+
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>	
+
+		<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<!-- external js -->
+	<script src="./assets/js/script.js"></script>
+</body>
+</html>
